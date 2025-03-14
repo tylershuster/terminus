@@ -1,6 +1,6 @@
 {
-  "name": "pantheon-systems/terminus",
-  "description": "A command line interface for Pantheon",
+  "name": "fivepaths/terminus",
+  "description": "A command line interface for Pantheon, with conflicts removed",
   "keywords": [
     "cli",
     "pantheon",
@@ -42,10 +42,6 @@
     "phpunit/phpunit": "^9",
     "squizlabs/php_codesniffer": "^3.5",
     "wdalmut/php-deb-packager": "^0.0.14"
-  },
-  "conflict": {
-    "drupal/core": "*",
-    "pantheon-systems/wordpress-composer": "*"
   },
   "autoload": {
     "psr-4": {
